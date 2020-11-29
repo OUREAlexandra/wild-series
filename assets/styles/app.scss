@@ -1,0 +1,14 @@
+// assets/styles/global.scss
+$red: #B40404;
+$grey: #A4A4A4;
+
+// customize some Bootstrap variables
+$primary:       $red !default;
+$secondary:     $grey !default;
+
+.bg-nav{
+    background-color: $red;
+}
+// the ~ allows you to reference things in node_modules
+@import "~bootstrap/scss/bootstrap";
+
