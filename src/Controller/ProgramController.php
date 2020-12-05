@@ -64,7 +64,7 @@ class ProgramController extends AbstractController
     }
 
     /**
-     * @Route("/{programId}/seasons/{seasonId}/episodes/{episodeId}", requirements={"id"="\d+"}, methods={"GET"}, name="program_episode_show")
+     * @Route("/{programId}/seasons/{seasonId}/episodes/{episodeId}", requirements={"id"="\d+"}, methods={"GET"}, name="episode_show")
      * @ParamConverter("program", class="App\Entity\Program", options={"mapping": {"programId": "id"}})
      * @ParamConverter("season", class="App\Entity\Season", options={"mapping": {"seasonId": "id"}})
      * @ParamConverter("episode", class="App\Entity\Episode", options={"mapping": {"episodeId": "id"}})
