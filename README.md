@@ -10,3 +10,6 @@ https://www.loom.com/share/5c48082970e448e6815bd15db1f17c6d
 
 Quete 12 - Update, Delete
 https://www.loom.com/share/39b2902ed48746b992adee498c23bcff
+
+Quete 13
+https://www.loom.com/share/c29f47f1e72a4acb881224f5cb404370
