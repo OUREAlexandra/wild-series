@@ -1,4 +1,14 @@
-// assets/styles/global.scss
+h2 {
+    color: rgb(253, 11, 52);
+}
+
+$green : #5F8A4F; 
+$light_green : #b6e0a7; 
+$light-color: white;
+$grey-green: #F5F6F4;
+$grey-light: #F8F8F8;
+
+/* // assets/styles/global.scss
 $red: #B40404;
 $grey: #A4A4A4;
 
@@ -6,9 +16,6 @@ $grey: #A4A4A4;
 $primary:       $red !default;
 $secondary:     $grey !default;
 
-.bg-nav{
-    background-color: $red;
-}
-// the ~ allows you to reference things in node_modules
+// the ~ allows you to reference things in node_modules */
 @import "~bootstrap/scss/bootstrap";
 
